@@ -5,11 +5,11 @@
 | Criterio | Node.js | Deno | Bun |
 | :--- | :--- | :--- | :--- |
 | **Tiempo de ejecución (ms)** | 1.23 ms | 1.67 ms | 11.38 ms |
-| **Líneas de código** | 44 | 43 | 42 |
+| **Líneas de código** | 60 | 58 | 60 |
 | **Requiere `package.json`** | Sí | No | Sí |
 | **TypeScript nativo** | No (Requiere transpilar) | Sí | Sí |
 | **Permisos explícitos** | No | Sí (`--allow-read`, `--allow-write`) | No |
-| **Dificultad de configuración (1–10)** | 5 | 2 | 3 |
+| **Dificultad de configuración (1–10)** | 3 | 2 | 5 |
 | **Syntax destacada** | `fs.readFileSync` | `Deno.readTextFile` (Top-level await) | `Bun.file().text()` |
 | **¿Lo usarías en producción?** | Sí, ecosistema maduro y confiable. | Sí, por seguridad nativa y TS listo para usar. | Para APIs de alto tráfico, aunque aún es joven. |
 
